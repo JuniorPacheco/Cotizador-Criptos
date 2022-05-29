@@ -70,7 +70,7 @@ function App() {
       alt='Imagenes criptomonedas'
       />
       <div>
-        <Heading>Desde heading</Heading>
+        <Heading>Cotizador Criptomonedas</Heading>
 
         <Formulario setMonedas={setMonedas}/>
         {cargando && <Spinner />}
